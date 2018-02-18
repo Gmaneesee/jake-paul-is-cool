@@ -8,8 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'Hey jake, what was your merch link again?') {
     	message.reply('fanjoy.co/jakepaul, next time remember it you stupid cunt nugget bitch ass fuck');
-    if (message.content === 'Its Everyday Bro sucks') {
-    	message.reply('Well guess what, your life sucks too BITCH');
   	}
 });
 
