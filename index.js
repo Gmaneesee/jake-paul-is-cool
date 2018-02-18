@@ -1,12 +1,15 @@
-const Discord = require('discord js'');
-const bot = new Discord.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-client.on('message', (message) => {
-
-  if(message.content == 'what was your merch link again?') {
-      message.replay('fanjoy.co/jakepaul, and remember it next time bitch');
-  }
-
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
-bot.login('JSSr3COYl3RA351abea_S6OJd05NMojJ')
+client.on('message', message => {
+    if (message.content === 'Hey jake, what was your merch link again?') {
+    	message.reply('fanjoy.co/jakepaul, next time remember it you stupid cunt nugget bitch ass fuck');
+  	}
+});
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
