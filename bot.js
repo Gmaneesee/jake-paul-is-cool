@@ -11,7 +11,7 @@ client.on('message', message => {
   	}
 client.on('message', message => {
     if (message.content === 'Its Everyday Bro sucks') {
-    	message.reply('Well guess what, your life sucks too, BITCH');
+    	message.reply('Well guess what, your life sucks too, BITCH http://bit.ly/2Hs3Ehe');
   	}
 });
 
