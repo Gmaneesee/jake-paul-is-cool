@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'Hey jake, what was your merch link again?') {
     	message.channel.sendMessage('fanjoy.co/jakepaul, next time remember it you stupid cunt nugget bitch ass fuck');
+    else if (message.content === 'Its Everyday Bro sucks') {
+        message.channel.sendMessage('well guess what, your Life sucks too BITCH');
     }
 });
 
