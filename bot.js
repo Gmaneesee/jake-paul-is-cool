@@ -8,7 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'Hey jake, what was your merch link again?') {
     	message.channel.sendMessage('fanjoy.co/jakepaul, next time remember it you stupid cunt nugget bitch ass fuck');
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
